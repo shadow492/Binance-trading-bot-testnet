@@ -34,7 +34,7 @@ trading_bot/
 3. Navigate to **API Management** and click **Generate Key**.
 4. Copy both the **API Key** and **Secret Key** — the secret is only shown once.
 
-> ⚠️ These are Testnet credentials. Do **not** use real Binance API keys here.
+> These are Testnet credentials. Do **not** use real Binance API keys here.
 
 ---
 

@@ -1,0 +1,6 @@
+2026-06-08 12:08:47 | DEBUG    | bot.validators       | Validated params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'LIMIT', 'quantity': '0.001', 'price': '50000', 'timeInForce': 'GTC'}
+2026-06-08 12:08:47 | INFO     | bot.orders           | Attempting LIMIT BUY BTCUSDT qty=0.001 @ 50000
+2026-06-08 12:08:47 | INFO     | bot.client           | Placing order with params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'LIMIT', 'quantity': '0.001', 'price': '50000', 'timeInForce': 'GTC'}
+2026-06-08 12:08:47 | DEBUG    | bot.client           | → POST /fapi/v1/order | params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'LIMIT', 'quantity': '0.001', 'price': '50000', 'timeInForce': 'GTC', 'recvWindow': 5000, 'timestamp': 1780920527751, 'signature': '8f864537c0c0c3172ddbc3723847775ebdc7c18cff028c304608b2e185e9a77c'}
+2026-06-08 12:08:48 | ERROR    | bot.client           | Response is not valid JSON: Host not in allowlist
+2026-06-08 12:08:48 | ERROR    | bot.orders           | Order failed (BinanceAPIError) for params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'LIMIT', 'quantity': '0.001', 'price': '50000', 'timeInForce': 'GTC'}

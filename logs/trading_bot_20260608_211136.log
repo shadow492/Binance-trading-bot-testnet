@@ -1,0 +1,6 @@
+2026-06-08 21:11:36 | DEBUG    | bot.validators       | Validated params: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': '0.001', 'price': '105000', 'timeInForce': 'GTC'}
+2026-06-08 21:11:38 | INFO     | bot.orders           | Attempting LIMIT SELL BTCUSDT qty=0.001 @ 105000
+2026-06-08 21:11:38 | INFO     | bot.client           | Placing order with params: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': '0.001', 'price': '105000', 'timeInForce': 'GTC'}
+2026-06-08 21:11:38 | DEBUG    | bot.client           | → POST /fapi/v1/order | params={'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': '0.001', 'price': '105000', 'timeInForce': 'GTC', 'recvWindow': 5000, 'timestamp': 1780933298101, 'signature': '5c32df3d04b8f17b419cda2ce3fbb6a970875029fb868609752c58d9fb9d00a0'}
+2026-06-08 21:11:38 | ERROR    | bot.client           | ← API error -2019: Margin is insufficient.
+2026-06-08 21:11:38 | ERROR    | bot.orders           | Order failed (BinanceAPIError) for params: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': '0.001', 'price': '105000', 'timeInForce': 'GTC'}

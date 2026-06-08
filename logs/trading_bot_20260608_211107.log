@@ -1,0 +1,6 @@
+2026-06-08 21:11:07 | DEBUG    | bot.validators       | Validated params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001'}
+2026-06-08 21:11:11 | INFO     | bot.orders           | Attempting MARKET BUY BTCUSDT qty=0.001
+2026-06-08 21:11:11 | INFO     | bot.client           | Placing order with params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001'}
+2026-06-08 21:11:11 | DEBUG    | bot.client           | → POST /fapi/v1/order | params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001', 'recvWindow': 5000, 'timestamp': 1780933271580, 'signature': 'd0756471cb73bfaa47bd2850f89d4e0959dc04886a3123f297b301596f041bcf'}
+2026-06-08 21:11:11 | ERROR    | bot.client           | ← API error -2019: Margin is insufficient.
+2026-06-08 21:11:11 | ERROR    | bot.orders           | Order failed (BinanceAPIError) for params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001'}
